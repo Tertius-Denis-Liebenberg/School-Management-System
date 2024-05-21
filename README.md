@@ -2,65 +2,39 @@
 
 ## Overview
 
-This project entails the creation of a School Management System using Java Swing. The system comprises two main frames: the Login frame and the Main frame. The Main frame incorporates a CardLayout to manage different sections of the interface, allowing users to navigate between various panels seamlessly. The system caters to tasks such as user authentication, viewing employee profiles, managing teachers and children, and more.
+The School Management System is a Java Swing application designed to streamline the management of teachers and children in an educational setting. It provides functionalities for adding, updating, and removing teachers and children from a database, as well as viewing their details in a user-friendly interface.
 
 ## Features
 
-- **Login Frame**: 
-  - Utilizes an undecorated form centered on the screen.
-  - Provides authentication via username and password fields.
-  - Displays a welcoming message upon successful login using JOptionPane.
+- **Teacher Management**: Add, update, and remove teachers from the system.
+- **Child Management**: Add, update, and remove children from the system.
+- **Database Interaction**: Connects to a database to store and retrieve teacher and child information.
+- **User Interface**: Utilizes Java Swing for a graphical user interface (GUI) for easy interaction.
 
-- **Main Frame**:
-  - Consists of three main sections: Header, Side Panel, and Center Panel.
-  - Header Panel:
-    - Features a close button and a white background.
-  - Side Panel:
-    - Displays user information and navigation buttons.
-    - Buttons are highlighted when selected.
-    - Provides navigation to different sections such as Profile, Dashboard, View Teachers, View Children, and Logout.
-  - Center Panel:
-    - Implements CardLayout for seamless navigation between panels.
-    - Contains panels for Profile, Dashboard, Teachers, and Children sections.
+## Installation
 
-## Implementation Details
+1. Clone the repository to your local machine:
 
-### Login Frame (10 Marks)
-- Username and password fields for user authentication.
-- Close button on a panel.
-- Undecorated form centered on the screen.
-- Welcome message displayed using JOptionPane upon successful login.
-- Navigation to the Main frame after successful login.
+   ```bash
+   git clone https://github.com/your-username/school-management-system.git
+   ```
 
-### Main Frame (20 Marks)
-#### Header Panel (5 Marks)
-- White background.
-- Close button implemented using a panel.
+2. Open the project in your preferred Java IDE.
+   
+3. Build and run the project.
 
-#### Side Panel (15 Marks)
-- Displays employee name.
-- Navigation buttons for various sections.
-- Highlighted button on selection.
-- Logout button navigates back to the Login form.
+## Usage
 
-#### Center Panel (95 Marks)
-- Implements CardLayout for navigation between panels.
-- Profile Button: Navigates to the Profile panel displaying user information.
-- Dashboard Button: Navigates to the Dashboard panel showing basic information about the system.
-- View Teachers Panel:
-  - Navigates to the Kids Klub Teachers panel.
-  - Uses JTable to display teacher information.
-- View Children Panel:
-  - Navigates to the Kids Klub Children panel.
-  - Utilizes JTable to display children information.
-- Remove Child Panel:
-  - Populates fields with relevant child information.
-  - Provides functionality to remove a child from the database.
+1. Launch the application.
+2. Navigate through the different panels to manage teachers and children.
+3. Add, update, or remove teachers and children as needed.
+4. View details of teachers and children in the respective tables.
 
-### Submission Requirements
-- Zipped folder containing program code.
-- PDF document with screenshots of the program output.
-- 5-minute PowerPoint recording demonstrating the program functionality.
+## Dependencies
+
+- Java Development Kit (JDK)
+- Java Swing
+- MySQL Database (or any other supported database)
 
 ## Author
 
