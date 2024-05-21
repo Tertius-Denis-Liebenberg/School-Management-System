@@ -16,7 +16,7 @@ The School Management System is a Java Swing application designed to streamline 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/school-management-system.git
+   git clone https://github.com/your-username/school-management-system.git](https://github.com/Tertius-Denis-Liebenberg/School-Management-System.git
    ```
 
 2. Open the project in your preferred Java IDE.
